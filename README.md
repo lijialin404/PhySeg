@@ -6,6 +6,4 @@
 **arxiv链接**: 
 
 **权重和数据集**:
-通过网盘分享的文件：PhySeg
-链接: https://pan.baidu.com/s/18b09leGGkA4P0iNjLn6bcg?pwd=j8y7 提取码: j8y7 
---来自百度网盘超级会员v3的分享
+百度网盘: https://pan.baidu.com/s/18b09leGGkA4P0iNjLn6bcg?pwd=j8y7
