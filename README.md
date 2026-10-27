@@ -45,12 +45,12 @@ data/PhySegD/
     └── test/
 ```
 ## Framework: PhySeg
-Training consists of two stages. 
-### Stage 1: LoRA Adaptation
+### Training consists of two stages. 
+**Stage 1: LoRA Adaptation**
 ```bash
 python train.py --stage lora --data-root data/PhySegD --output-dir runs/lora
 ```
-### Stage 2: Progressive Refinement
+**Stage 2: Progressive Refinement**
 ```bash
 python train.py --stage refiner --data-root data/PhySegD --lora-checkpoint runs/lora/best.pt --output-dir runs/refiner
 ```
@@ -68,3 +68,12 @@ python evaluate.py --data-root data/PhySegD --split val --output-dir results/val
 checkpoints/physeg.pt
 ```
 This single file contains the **SAM2.1 Large image backbone, LoRA parameters, and Refiner parameters**.
+
+## Citation
+If you find PhySeg or PhySegD useful in your research, please cite this work:
+```bibtex
+@misc{li_physeg,
+  title  = {Progressively Refining {SAM} for Accurate Phytoplankton Segmentation},
+  author = {Li, Jialin and Jiang, Jinkun and Li, Yuezun and Dong, Junyu}
+}
+```
