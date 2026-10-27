@@ -19,7 +19,29 @@ conda create -n physeg python=3.12.13 -y
 conda activate physeg
 python -m pip install -r requirements.txt
 ```
+## Dataset: PhySegD
+PhySegD extends PMID2019 with **11,990 manually annotated instance masks across 9,824 images**, covering **15 genus-level categories**.
 
+| Split | Images | Instances |
+|---|---:|---:|
+| Training | 6,880 | 8,378 |
+| Validation | 1,968 | 2,395 |
+| Test | 976 | 1,217 |
+| **Total** | **9,824** | **11,990** |
+
+Organize the COCO-format dataset as follows:
+
+```text
+data/PhySegD/
+├── annotations/
+│   ├── instances_train.json
+│   ├── instances_val.json
+│   └── instances_test.json
+└── images/
+    ├── train/
+    ├── val/
+    └── test/
+```
 **arxiv链接**: 
 
 **权重和数据集**:
