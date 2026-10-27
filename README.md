@@ -1,2 +1,5 @@
-# PhySeg
-arxiv
+# PhySeg: PROGRESSIVELY REFINING SAM FOR ACCURATE PHYTOPLANKTON SEGMENTATION
+浮游植物的分割框架和数据集
+arxiv链接: 
+主实验权重:
+数据集链接:
