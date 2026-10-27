@@ -42,6 +42,12 @@ data/PhySegD/
     ├── val/
     └── test/
 ```
+## Pretrained Checkpoint
+Place the standalone main-experiment checkpoint at:
+```text
+checkpoints/physeg.pt
+```
+This single file contains the **SAM2.1 Large image backbone, LoRA parameters, and Refiner parameters**.
 
 **arxiv链接**: 
 
