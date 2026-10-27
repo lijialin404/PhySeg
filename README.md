@@ -61,7 +61,7 @@ python evaluate.py --data-root data/PhySegD --split test --output-dir results/te
 ```bash
 python evaluate.py --data-root data/PhySegD --split val --output-dir results/val
 ```
-### Place the standalone main-experiment checkpoint at:
+**Place the standalone main-experiment checkpoint at:**
 ```text
 checkpoints/physeg.pt
 ```
