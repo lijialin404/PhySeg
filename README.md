@@ -70,7 +70,6 @@ checkpoints/physeg.pt
 This single file contains the **SAM2.1 Large image backbone, LoRA parameters, and Refiner parameters**.
 
 ## Citation
-If you find PhySeg or PhySegD useful in your research, please cite this work:
 ```bibtex
 @misc{li_physeg,
   title  = {Progressively Refining {SAM} for Accurate Phytoplankton Segmentation},
