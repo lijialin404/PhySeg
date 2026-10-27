@@ -19,7 +19,6 @@ conda create -n physeg python=3.12.13 -y
 conda activate physeg
 python -m pip install -r requirements.txt
 ```
-## Download: Weights and Dataset
 **Weights and dataset:** [Baidu Netdisk](https://pan.baidu.com/s/18b09leGGkA4P0iNjLn6bcg?pwd=j8y7) · Extraction code: `j8y7`
 
 ## Dataset: PhySegD
