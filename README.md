@@ -14,16 +14,11 @@ Official implementation of **Progressively Refining SAM for Accurate Phytoplankt
 ![PhySegD采样图](fig/figure_sample.jpg)
 
 ## Installation
-
-The code has been verified on Windows with Python **3.12.13**, PyTorch **2.10.0+cu128**, torchvision **0.25.0+cu128**, and an NVIDIA RTX 5070 Ti Laptop GPU. Training and evaluation use CUDA and BF16.
-
 ```bash
 conda create -n physeg python=3.12.13 -y
 conda activate physeg
 python -m pip install -r requirements.txt
 ```
-
-The dependencies in [requirements.txt](requirements.txt) were also installed and checked in a fresh Conda environment, where both complete evaluation splits reproduced the reference results.
 
 **arxiv链接**: 
 
