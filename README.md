@@ -1,4 +1,5 @@
 # PhySeg: PROGRESSIVELY REFINING SAM FOR ACCURATE PHYTOPLANKTON SEGMENTATION
+![PhySeg架构图](fig/figure_overview.png)
 arxiv链接: 
 
 主实验权重:
