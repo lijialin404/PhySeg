@@ -73,6 +73,7 @@ This single file contains the **SAM2.1 Large image backbone, LoRA parameters, an
 ```bibtex
 @misc{li_physeg,
   title  = {Progressively Refining {SAM} for Accurate Phytoplankton Segmentation},
-  author = {Li, Jialin and Jiang, Jinkun and Li, Yuezun and Dong, Junyu}
+  author = {Li, Jialin and Jiang, Jinkun and Li, Yuezun and Dong, Junyu},
+  url = {https://example.com/physeg}
 }
 ```
