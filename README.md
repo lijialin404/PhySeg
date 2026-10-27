@@ -19,7 +19,7 @@ conda create -n physeg python=3.12.13 -y
 conda activate physeg
 python -m pip install -r requirements.txt
 ```
-**Weights and dataset:** [Baidu Netdisk](https://pan.baidu.com/s/18b09leGGkA4P0iNjLn6bcg?pwd=j8y7) · Extraction code: `j8y7`
+**Weights and dataset:** [Baidu Netdisk](通过网盘分享的文件：https://pan.baidu.com/s/1JG6GgShm_nqAKz8wGFUynw?pwd=1234) · Extraction code: `1234`
 
 ## Dataset: PhySegD
 PhySegD extends PMID2019 with **11,990 manually annotated instance masks across 9,824 images**, covering **15 genus-level categories**.
