@@ -42,7 +42,25 @@ data/PhySegD/
     ├── val/
     └── test/
 ```
-## Pretrained Checkpoint
+## Framework: PhySeg
+Training consists of two stages. 
+### Stage 1: LoRA Adaptation
+```bash
+python train.py --stage lora --data-root data/PhySegD --output-dir runs/lora
+```
+### Stage 2: Progressive Refinement
+```bash
+python train.py --stage refiner --data-root data/PhySegD --lora-checkpoint runs/lora/best.pt --output-dir runs/refiner
+```
+### Run these commands from the repository root.
+**Test set:**
+```bash
+python evaluate.py --data-root data/PhySegD --split test --output-dir results/test
+```
+**Validation set:**
+```bash
+python evaluate.py --data-root data/PhySegD --split val --output-dir results/val
+```
 Place the standalone main-experiment checkpoint at:
 ```text
 checkpoints/physeg.pt
