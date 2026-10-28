@@ -1,4 +1,4 @@
-# PhySeg: Progressively Refining SAM for Accurate Phytoplankton Segmentation
+ # PhySeg: Progressively Refining SAM for Accurate Phytoplankton Segmentation
 Official implementation of **Progressively Refining SAM for Accurate Phytoplankton Segmentation**.
 
 > **Progressively Refining SAM for Accurate Phytoplankton Segmentation**  
@@ -74,8 +74,8 @@ This single file contains the **SAM2.1 Large image backbone, LoRA parameters, an
 @article{li2026physeg,
   title={Progressively Refining {SAM} for Accurate Phytoplankton Segmentation},
   author={Li, Jialin and Jiang, Jinkun and Li, Yuezun and Dong, Junyu},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2610.36722},
   year={2026},
-  url={https://arxiv.org/abs/XXXX.XXXXX}
+  url={https://arxiv.org/abs/2610.36722}
 }
 ```
