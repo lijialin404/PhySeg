@@ -1,6 +1,7 @@
  # PhySeg: Progressively Refining SAM for Accurate Phytoplankton Segmentation
+ [![arXiv](https://img.shields.io/badge/arXiv-2610.36722-b31b1b.svg)](https://arxiv.org/abs/2610.36722)
 Official implementation of **Progressively Refining SAM for Accurate Phytoplankton Segmentation**.
-[![arXiv](https://img.shields.io/badge/arXiv-2610.36722-b31b1b.svg)](https://arxiv.org/abs/2610.36722)
+
 > **Progressively Refining SAM for Accurate Phytoplankton Segmentation**  
 > Jialin Li, Jinkun Jiang, Yuezun Li\*, and Junyu Dong  
 > School of Computer Science and Technology, Ocean University of China, Qingdao, China  
